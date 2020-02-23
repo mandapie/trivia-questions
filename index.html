@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Random Trivia Questions</h1>
+    <p id="start">This website asks 5 random questions. Do your best to answer.</p>
+
+    <div id="end" style="display:none">
+        <p>Thank you for answering all 5 questions!</p>
+        <small>
+            <p>Retake?</p>
+            <button id="redo">Yes</button>
+        </small>
+
+        <h2>Review</h2>
+    </div>
+    
+    <div id="questions">
+        <div id="question1">
+            <div class="question"></div>
+            <br>
+        </div>
+        <div id="question2" style="display:none">
+            <div class="question"></div>
+            <button class="back" id="back1">back</button>
+            <br>
+        </div>
+        <div id="question3" style="display:none">
+            <div class="question"></div>
+            <button class="back" id="back2">back</button>
+            <br>
+        </div>
+        <div id="question4" style="display:none">
+            <div class="question"></div>
+            <button class="back" id="back3">back</button>
+            <br>
+        </div>
+        <div id="question5" style="display:none">
+            <div class="question"></div>
+            <button class="back" id="back4">back</button>
+            <br>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
